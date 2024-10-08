@@ -1,0 +1,22 @@
+{
+  "name": "collision-synth",
+  "version": "0.0.1",
+  "main": "./dist/collision-synth.cjs.js",
+  "module": "./dist/collision-synth.es.js",
+  "types": "./dist/types/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vite-plugin-dts": "^4.2.3"
+  },
+  "dependencies": {
+    "construct-js": "^1.0.1"
+  }
+}
+
