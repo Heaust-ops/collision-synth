@@ -3,6 +3,7 @@
 Use this library to procedurally generate and use sounds for the collision of your game objects in tandem w/ the physics, audio and render engine of your choice.
 
 npm: [https://www.npmjs.com/package/collision-synth](https://www.npmjs.com/package/collision-synth)
+
 playground: [https://csynth.heaust.org/](https://csynth.heaust.org/)
 
 you can play around the simple UI in the playground or access the `window.synth` variable exposed in the dev console to fully test the capabilities of this library.
